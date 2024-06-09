@@ -1,14 +1,14 @@
 import Head from 'next/head'
 const OpenGraphHead = () => (
   <Head>
-    <title>KL Lawingco | Software Engineer</title>
-    <meta name="description" content="My personal solace place on web-earth." />
-    <meta property="og:title" content="KL Lawingco | Software Engineer" />
-    <meta property="og:site_name" content="Marc Jhon Lawingco" />
-    <meta property="og:url" content="https://kllawingco.netlify.app/" />
+    <title>Menelik Asfaw | Software Engineer</title>
+    <meta name="description" content="My imitation web solace in the web earth." />
+    <meta property="og:title" content="Menelik Asfaw | Software Engineer" />
+    <meta property="og:site_name" content="Menelik Asfaw" />
+    <meta property="og:url" content="https://mini-portfolio-nu.vercel.app/" />
     <meta
       property="og:description"
-      content="Ohh you found me?. Howdy! I am Marc Jhon Lawingco. Or you could call me KL. That works too . . . I am a Software Engineer"
+      content="Ohh you found me?. Howdy! I am Menelik Gedion Asfaw. Or you could call me Mini for short. I am a Software Engineer"
     />
     <meta property="og:type" content="profile" />
     <meta

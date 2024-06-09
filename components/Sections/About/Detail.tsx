@@ -32,7 +32,7 @@ type ISkillSetModal = {
 const Detail = ({ onOpen }: ISkillSetModal) => {
   const emphasis = useColorModeValue('teal.500', 'cyan.200')
   const currentYear = new Date().getFullYear()
-  const professionalYears = currentYear - 2016
+  const professionalYears = currentYear - 2020
 
   return (
     <Stack
@@ -67,15 +67,15 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         <br /> <br />
         Here are few technologies that are cup of my{' '}
         <Tooltip
-          label="I only drink tea if I needed too!"
-          aria-label="I hate Tea!"
+          label="I only drink coffee if it is made in a gebena!"
+          aria-label="I hate coffee!"
           hasArrow
         >
           <Text as="span" variant="emphasis" textDecorationLine="line-through">
-            tea
+            coffee
           </Text>
         </Tooltip>{' '}
-        coffee <Icon as={GiCoffeePot} color={emphasis} />.
+        tea <Icon as={GiCoffeePot} color={emphasis} />.
       </Text>
 
       <SimpleGrid columns={2} spacing={4}>

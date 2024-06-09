@@ -57,7 +57,7 @@ const GetInTouch = () => {
         stuff, anything is cool. So feel free to message me on any of my social
         media or shoot me an{' '}
         <Link
-          href="mailto:marcjhon18@gmail.com"
+          href="mailto:menilik98@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -77,14 +77,14 @@ const GetInTouch = () => {
           variant="description"
           textDecoration="none"
           rel="noreferrer"
-          href="https://github.com/klawingco/kl_portfolio"
+          href="https://github.com/mini96"
           target="_blank"
           _focus={{ boxShadow: 'none' }}
         >
           <Text as="span">
             <Icon as={RiGithubFill} h={6} w={6} /> <br />
             Designed and Made with <Icon as={RiHeartPulseFill} /> <br />
-            KL Lawingco <Icon as={RiCopyleftLine} /> 2021
+            KL Lawingco Template, adapted by Menelik Asfaw <Icon as={RiCopyleftLine} /> 2021
           </Text>
         </Link>
       </Box>

@@ -70,7 +70,7 @@ const Sidebar = () => {
             textTransform="uppercase"
             variants={fadeInUp}
           >
-            Marc Jhon
+            Menelik Gedion
           </MotionHeading>
           <MotionHeading
             as="h2"
@@ -82,7 +82,7 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Lawingco.
+            Asfaw
           </MotionHeading>
           <MotionText
             colorScheme="gray"
@@ -90,7 +90,7 @@ const Sidebar = () => {
             className={styles.marginTopForce}
             variants={fadeInUp}
           >
-            Or you could call me KL. That works too . . .
+            Or you could call me Mini for short.
           </MotionText>
 
           <MotionHeading
@@ -110,13 +110,14 @@ const Sidebar = () => {
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
           >
-            Hey! How nice of you to look at my personal site,
+            Hey there, welcome to my personal site, a big warm
             <Text variant="emphasis" as="span">
               {' '}
-              Thank you!
+              Thank you! Is in order
             </Text>
-            <br />I am software engineer that specializes at backend apis, front
-            end integration, recently found myself studying UX too.
+            
+            <br />I am software engineer that specializes at backend apis, data lakes
+            , recently found myself studying UX too.
           </MotionText>
           <MotionButton
             size="lg"
