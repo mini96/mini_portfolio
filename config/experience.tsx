@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'Droniq' | 'GIA' | 'Amigo'
 
 export type CompanyDetail = {
   name: string
@@ -19,145 +19,101 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+  Droniq: {
+    name: 'Droniq',
+    longName: 'Droniq Gesellschaft mit beschränkter Haftung',
+    subDetail: 'GmBH',
+    url: 'https://droniq.de/',
+    position: 'Software Engineer',
+    duration: 'Apr 2024 - Present',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/droniq/Droniq_logo.png',
+      dark: '/worked_at_logos/droniq/Droniq_logo_dark.png',
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+      Crafted user-friendly interfaces and robust backend systems for the POC, 
+      highlighting innovative approaches to streamline drone operations.
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
+        Specialized in backend integration, testing the feasibility of data transfer between native apps and  
+        {' '}
         <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
+          aria-label="DroniQ's systems"
+          href="https://droniq.de/en/produkte/utm-trackviewer-monatslizenz/"
           target="_blank"
           rel="noreferrer"
         >
-          Deloitte Digital AU Site.
-        </Link>
+          DroniQ's systems,
+        </Link>&nbsp;
+        showcasing innovative approaches to streamline drone operations.
       </>,
-      <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
-      </>,
+   
     ],
   },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+  GIA: {
+    name: 'Governance Institute of Australia',
+    longName: 'Governance Institute of Australia',
+    subDetail: 'NFP',
+    url: 'https://www.governanceinstitute.com.au/',
+    position: 'IT Business Partner',
+    duration: 'August 2022 - May 2024',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/gia/GIA_logo.png',
+      dark: '/worked_at_logos/gia/GIA_logo_dark.png',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a
-        newer architectural design approach.
+        Managed 2 projects, acceptance process, installation, deployment and sign-off with team of 2 with revenue of $300k
+        Supported 50 internal users whistle office move
       </>,
       <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
+     Used Microsoft system to audit documents and managed change requests then communicated changes to internal stakeholders
+     which improved quality of delivery by 50%
       </>,
       <>
-        Worked on maintaining{' '}
-        <Link
-          variant="primaryLink"
-          href="https://www.westfield.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
+   Optimized Power Automate flow to streamline the process of creating records by eliminating the need for staff to manually enter
+   data in two separate systems, resulting in increased efficiency by 20%.
       </>,
       <>
         Migrating of existing marketing email related tools and batch jobs from
         Responsys into new platform called Braze.
       </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
-        <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braze
-        </Link>{' '}
-        as a result.
-      </>,
+
     ],
   },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
+  Amigo: {
+    name: 'Amigo Informatics',
+    longName: 'Amigo Informatics',
+    subDetail: 'formerly Oscillosoft.',
+    url: 'https://amigoinformatics.com/',
+    position: 'Senior Technical Consultant',
     duration: 'Nov 2016 - Feb 2020',
     logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      light: '/worked_at_logos/amigo/Amigo_logo.png',
+      dark: '/worked_at_logos/amigo/Amigo_logo_dark.png',
     },
     roles: [
       <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
+       Used Google system to audit documents and managed change requests then communicated changes to 9 clients worth up to
+       $150K in revenue
       </>,
       <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
+      Gathered intelligence from team of 4 to understand needs and future growth strategy which increases growth by 30%
       </>,
       <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
+       Assisted in the development and testing of new business processes, capabilities, and supporting technologies to improve
+       security reduced time by 30%
       </>,
       <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
+        Led communications across 3 clients to analyze business data and identify areas of improvement to reduce costs by 60%
       </>,
     ],
   },
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
+  Experiences.Droniq,
+  Experiences.GIA,
+  Experiences.Amigo,
 ]

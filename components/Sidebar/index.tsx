@@ -113,11 +113,10 @@ const Sidebar = () => {
             Hey there, welcome to my personal site, a big warm
             <Text variant="emphasis" as="span">
               {' '}
-              Thank you! Is in order
+              thank you for stopping by
             </Text>
             
-            <br />I am software engineer that specializes at backend apis, data lakes
-            , recently found myself studying UX too.
+            <br />I'm a software engineer who loves building backend APIs and data lakes. Lately, I've also been exploring the exciting world of UX design.
           </MotionText>
           <MotionButton
             size="lg"
@@ -129,7 +128,7 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="mailto:marcjhon18@gmail.com"
+            href="mailto:menilik98@gmail.com"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
