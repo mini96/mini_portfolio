@@ -49,7 +49,7 @@ const FeaturedWorksSection = () => {
             description="Power BI is a powerful tool businesses use to visualize information for informed decisions, 
             but it lacks an easy link to connect with Zoho CRM."
           
-            ctaUrl="https://www.devart.com/odbc/zoho//"
+            ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             
             objectPosition="right 20%"
             isMobile={isMobile}
@@ -59,36 +59,24 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
-            title="RSV"
-            description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
-            src="/works/rsv.webp"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://solution.rsv.ltd/jp"
+            title="Hubspot to Zoho CRM Migration"
+            description="A client required all of his data and automation migrated from Hubspot to Zoho CRM"
+            src="/works/hubspotlogo.png"
+            
+            ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             isMobile={isMobile}
           />
         </MotionGridItem>
 
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
-            idx={3}
-            title="Agora School"
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
-            src="/works/agora.webp"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://dev.agora-school.com"
-            objectPosition="right 20%"
-            isMobile={isMobile}
-          />
-        </MotionGridItem>
+    
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={4}
-            title="TMH Layla EC"
-            description="A Japanese Semi-conductor e-commerce made at my old place at IVP. I was working with backend using ASP.NET MVC"
-            src="/works/tmh.webp"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://www.layla-ec.com/"
+            title="Custom Lead Allocation"
+            description="A medium-sized business wanted custom lead allocation system implemented using Deluge"
+            src="/works/Leadallo.webp"
+            ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             isMobile={isMobile}
           />
         </MotionGridItem>

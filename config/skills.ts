@@ -32,6 +32,11 @@ import {
   SiUnity,
   SiMicrosoft,
   SiElectron,
+  SiKotlin,
+  SiAmazonaws,
+  SiDynamics365,
+  SiJira,
+  SiConfluence,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -58,10 +63,7 @@ export const Skills: {
   [key in SkillCategory]: Skill[]
 } = {
   backend: [
-    {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
+   
     {
       name: 'Node',
       icon: SiNodeDotJs,
@@ -75,13 +77,10 @@ export const Skills: {
       icon: SiTypescript,
     },
     {
-      name: 'Graphql (JS, C#)',
-      icon: SiGraphql,
-    },
-    {
       name: 'PHP (Wordpress, Slim)',
       icon: SiPhp,
     },
+    
   ],
   frontend: [
     {
@@ -93,10 +92,6 @@ export const Skills: {
       icon: SiNextDotJs,
     },
     {
-      name: 'Apollo Graphql',
-      icon: SiApollographql,
-    },
-    {
       name: 'Redux',
       icon: SiRedux,
     },
@@ -104,10 +99,7 @@ export const Skills: {
       name: 'VueJS',
       icon: SiVueDotJs,
     },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
-    },
+
   ],
   database: [
     {
@@ -126,31 +118,22 @@ export const Skills: {
       name: 'MongoDb',
       icon: SiMongodb,
     },
-    {
-      name: 'Redis',
-      icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
+   
+    
   ],
   cicd: [
     {
       name: 'Docker',
       icon: SiDocker,
     },
-    {
-      name: 'GCP',
-      icon: SiGooglecloud,
-    },
+  
     {
       name: 'CPanel',
       icon: SiCpanel,
+    },
+    {
+      name: 'AWS',
+      icon: SiAmazonaws,
     },
     {
       name: 'Rancher',
@@ -160,27 +143,12 @@ export const Skills: {
       name: 'GitlabCICD',
       icon: SiGitlab,
     },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
-    },
+   
   ],
   'ui frameworks': [
     {
       name: 'Styled Components',
       icon: SiStyledComponents,
-    },
-    {
-      name: 'AntDesign',
-      icon: AiOutlineAntDesign,
-    },
-    {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
-    },
-    {
-      name: 'Framer Motion',
-      icon: SiFramer,
     },
     {
       name: 'ChakraUI',
@@ -201,9 +169,14 @@ export const Skills: {
       icon: SiGnubash,
     },
     {
-      name: 'SourceTree',
-      icon: FaSourcetree,
+      name: 'Jira',
+      icon: SiJira,
     },
+    {
+      name: 'Confluence',
+      icon: SiConfluence,
+    },
+   
   ],
   mobile: [
     {
@@ -211,8 +184,8 @@ export const Skills: {
       icon: SiReact,
     },
     {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
+      name: 'Kotlin',
+      icon: SiKotlin,
     },
   ],
   games: [

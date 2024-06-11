@@ -52,10 +52,9 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-        Though, I am fairly introverted myself. I do reply to messages as long
-        as my human interaction battery lasts. Coding, work, movies or even weeb
-        stuff, anything is cool. So feel free to message me on any of my social
-        media or shoot me an{' '}
+      Even though I'm quite introverted, I do respond to messages as long as my social energy holds up. 
+      Whether it's about coding, work, movies, or even anime, I'm up for it. 
+      So don't hesitate to reach out to me on any of my social media accounts or send me an {' '}
         <Link
           href="mailto:menilik98@gmail.com"
           target="_blank"
@@ -84,7 +83,7 @@ const GetInTouch = () => {
           <Text as="span">
             <Icon as={RiGithubFill} h={6} w={6} /> <br />
             Designed and Made with <Icon as={RiHeartPulseFill} /> <br />
-            KL Lawingco Template, adapted by Menelik Asfaw <Icon as={RiCopyleftLine} /> 2021
+            KL Lawingco Template, utilized and adapted by Menelik Asfaw <Icon as={RiCopyleftLine} /> 2024
           </Text>
         </Link>
       </Box>
