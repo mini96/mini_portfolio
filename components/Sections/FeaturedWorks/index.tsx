@@ -44,15 +44,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={1}
-            title="Zoho CRM x Power BI"
-            src="/works/powerbilogo1.webp"
-        
-            description="Power BI is a powerful tool businesses use to visualize information for informed decisions, 
-            but it lacks an easy link to connect with Zoho CRM."
+            title="Custom Lead Allocation"
+            description="A mid-sized enterprise sought the implementation of a bespoke lead allocation system utilizing Deluge."
+            src="/works/Leadallo.webp"
             
             ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
-            
-            objectPosition="right 20%"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -63,7 +59,7 @@ const FeaturedWorksSection = () => {
             title="Hubspot to Zoho CRM Migration"
             
             description="A client required all of his data and automation migrated from Hubspot to Zoho CRM"
-            src="/works/hubspotlogo.png"
+            src="/works/hubxzoho.png"
             
             ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             isMobile={isMobile}
@@ -74,13 +70,17 @@ const FeaturedWorksSection = () => {
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={4}
-            title="Custom Lead Allocation"
-            description="A medium-sized business wanted custom lead allocation system implemented using Deluge"
-            src="/works/Leadallo.webp"
+            idx={3}
+            title="Zoho CRM x Power BI"
+            src="/works/zohoxpowerbi.png"
+        
+            description="Power BI visualizes data for decisions, but lacks easy Zoho CRM integration."
             
             ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
+            
+            objectPosition="right 20%"
             isMobile={isMobile}
+          
           />
         </MotionGridItem>
       </MotionGrid>
