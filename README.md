@@ -1,6 +1,6 @@
 # Menelik Asfaw's Personal Site
 
-Hey there! mini here. This is a modified version of KL's Personal site, no big UI overhauls so please check out the original template usuing this link when you have time and give KL a follow. 
+Hey there! mini here. This is a modified version of KL's Personal site, no big UI overhauls so please check out the original template using [this link](https://github.com/klawingco/kl_portfolio) when you have time and give KL a follow. 
 
 This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
 
@@ -52,13 +52,13 @@ and it should open at
 
 ## Deployment
 
-Nothing special, its setup at Netlify end (in other words: no `netlify.toml`), just merge a feat branch to master branch and you're good. 
+This is deployed on Vercel on the free tier, really easy to push as you only need to push to orgin then you are sorted.
 
 
 ## Credits
 
-Logo and Avatar are made by my friend : <b>KojiroArt</b>.
-Please check him out at his [`twitter`](https://twitter.com/kojiro_ai) account.  
+This is a big appreciation section to KL Lwangico for creating such an awesome template, please if you are reading this fork from his repository using [this link](https://github.com/klawingco/kl_portfolio)
+
 
 And of course 
 Made with Love and :coffee:
