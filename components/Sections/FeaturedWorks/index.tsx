@@ -46,10 +46,10 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="Zoho CRM x Power BI"
             src="/works/powerbilogo1.webp"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+        
             description="Power BI is a powerful tool businesses use to visualize information for informed decisions, 
             but it lacks an easy link to connect with Zoho CRM."
-          
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             
             objectPosition="right 20%"
@@ -61,10 +61,10 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="Hubspot to Zoho CRM Migration"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
+            
             description="A client required all of his data and automation migrated from Hubspot to Zoho CRM"
             src="/works/hubspotlogo.png"
-            
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             isMobile={isMobile}
           />
@@ -76,9 +76,9 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={4}
             title="Custom Lead Allocation"
-            height={{ base: '130px', md: '225px', '2xl': '300px' }}
             description="A medium-sized business wanted custom lead allocation system implemented using Deluge"
             src="/works/Leadallo.webp"
+            height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.linkedin.com/in/menelik-asfaw-226388140/details/projects/"
             isMobile={isMobile}
           />
