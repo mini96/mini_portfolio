@@ -31,10 +31,7 @@ export const Experiences: {
       dark: '/worked_at_logos/droniq/Droniq_logo_dark.png',
     },
     roles: [
-      <>
-      Crafted user-friendly interfaces and robust backend systems for the POC, 
-      highlighting innovative approaches to streamline drone operations.
-      </>,
+    
       <>
         Specialized in backend integration, testing the feasibility of data transfer between native apps and  
         {' '}
@@ -75,10 +72,7 @@ export const Experiences: {
    Optimized Power Automate flow to streamline the process of creating records by eliminating the need for staff to manually enter
    data in two separate systems, resulting in increased efficiency by 20%.
       </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
-      </>,
+   
 
     ],
   },
