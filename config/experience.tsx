@@ -54,7 +54,7 @@ export const Experiences: {
     subDetail: 'NFP',
     url: 'https://www.governanceinstitute.com.au/',
     position: 'IT Business Partner',
-    duration: 'August 2022 - May 2024',
+    duration: 'August 2022 - May 2023',
     logo: {
       light: '/worked_at_logos/gia/GIA_logo.png',
       dark: '/worked_at_logos/gia/GIA_logo_dark.png',
