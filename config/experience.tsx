@@ -82,7 +82,7 @@ export const Experiences: {
     subDetail: 'formerly Oscillosoft.',
     url: 'https://amigoinformatics.com/',
     position: 'Senior Technical Consultant',
-    duration: 'Nov 2016 - Feb 2020',
+    duration: 'Nov 2020 - Aug 2022',
     logo: {
       light: '/worked_at_logos/amigo/Amigo_logo.png',
       dark: '/worked_at_logos/amigo/Amigo_logo_dark.png',
