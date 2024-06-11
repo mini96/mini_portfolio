@@ -8,12 +8,12 @@ const OpenGraphHead = () => (
     <meta property="og:url" content="https://mini-portfolio-nu.vercel.app/" />
     <meta
       property="og:description"
-      content="Ohh you found me?. Howdy! I am Menelik Gedion Asfaw. Or you could call me Mini for short. I am a Software Engineer"
+      content="Hey there, I am Menelik Gedion Asfaw and this is my Personal Website"
     />
     <meta property="og:type" content="profile" />
     <meta
       property="og:image"
-      content="https://mini-portfolio-nu.vercel.app/KL_avatar.png"
+      content="https://mini-portfolio-nu.vercel.app/KL_avatar_light.png"
     ></meta>
   </Head>
 )
