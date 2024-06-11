@@ -19,12 +19,12 @@ import { easing, DURATIONS } from 'config/animations'
 export type FeaturedCardProps = {
   // Still can't find what's correct value for responsive value
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
- // height: string | ResponsiveValue<any>
   src: string
   idx: number
   title: string
   description: string
   objectPosition?: string
+  
   ctaUrl: string
   isMobile?: boolean
 }
@@ -125,7 +125,7 @@ const ProjectDescription = ({
 
 const FeaturedCard = ({
   idx,
-  height,
+ 
   src,
   title,
   description,
@@ -137,7 +137,7 @@ const FeaturedCard = ({
   const bg = useColorModeValue('blackAlpha.50', 'whiteAlpha.200')
   const CoverImage = () => (
     <MotionImage
-      height={height}
+      
       width="100%"
       src={src}
       alt={title}
@@ -147,7 +147,7 @@ const FeaturedCard = ({
       opacity={0.75}
       whileHover={variants.hover}
       whileTap={variants.tap}
-      fallback={<Skeleton height={height} width="100%" />}
+      fallback={<Skeleton height="100%" width="100%" />}
     />
   )
 
