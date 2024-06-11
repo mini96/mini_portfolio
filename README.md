@@ -1,13 +1,13 @@
-# KL Lawingco's Personal Site
+# Menelik Asfaw's Personal Site
 
-Hey there! KL here. This is a v2 of my portfolio site, a complete rewrite from v1 which is shamefully a template I edited a bit back on 2018. I wanted to try out what I can do on my own in regards to UI and UX design so I reckon why not start with my porfolio.
+Hey there! mini here. This is a modified version of KL's Personal site, no big UI overhauls so please check out the original template usuing this link when you have time and give KL a follow. 
 
 This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
 
 
 This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
 
-Site is Currently deployed at <b>Netlify</b>'s Free tier .
+Site is Currently deployed at <b>Vercel</b>'s Free tier .
 
 > Build Status 
 
