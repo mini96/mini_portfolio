@@ -179,4 +179,4 @@ const FeaturedCard = ({
     </Box>
   )
 }
-export default FeaturedCar
+export default FeaturedCard
