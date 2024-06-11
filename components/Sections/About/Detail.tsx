@@ -16,7 +16,6 @@ import {
   SiDotNet,
   SiJavascript,
   SiTypescript,
-  SiGraphql,
   SiReact,
   SiNextDotJs,
   SiNodeDotJs,
@@ -80,10 +79,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
 
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>
-          <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
-            C# - .NET.Core
-          </ListItem>
+         
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
             Javascript (ES6+)
@@ -99,10 +95,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
         </List>
         <List spacing={3}>
-          <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiGraphql} color={emphasis} fontSize="2em" />
-            Graphql
-          </ListItem>
+         
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             React

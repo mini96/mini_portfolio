@@ -61,7 +61,7 @@ const Sidebar = () => {
             variant="accent"
             fontWeight="light"
           >
-            Ohh you found me?. Howdy! I am
+           Oh, you made it here? Welcome! I am
           </MotionText>
           <MotionHeading
             as="h1"
@@ -110,7 +110,7 @@ const Sidebar = () => {
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
           >
-            Hey there, welcome to my personal site, a big warm
+            A big warm
             <Text variant="emphasis" as="span">
               {' '}
               thank you for stopping by

@@ -135,10 +135,7 @@ export const Skills: {
       name: 'AWS',
       icon: SiAmazonaws,
     },
-    {
-      name: 'Rancher',
-      icon: SiRancher,
-    },
+    
     {
       name: 'GitlabCICD',
       icon: SiGitlab,
@@ -199,10 +196,7 @@ export const Skills: {
       name: 'Windows Forms, WPF',
       icon: SiMicrosoft,
     },
-    {
-      name: 'Electron',
-      icon: SiElectron,
-    },
+    
   ],
 }
 
