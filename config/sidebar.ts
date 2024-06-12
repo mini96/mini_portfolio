@@ -17,11 +17,7 @@ type SocialMedia = {
 
 export const SocialMedias: SocialMedia[] = [
  
-  {
-    label: 'Instagram',
-    href: 'https://www.instagram.com/mini98_16/',
-    icon: FaInstagram,
-  },
+ 
   {
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/menelik-asfaw-226388140/',
