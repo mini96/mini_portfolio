@@ -52,7 +52,7 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-      Even though I'm quite introverted, I do respond to messages as long as my social energy holds up. 
+      Even though I'm somewhat introverted, I do respond to messages as long as my social energy holds up. 
       Whether it's about coding, work, movies, or even anime, I'm up for it. 
       So don't hesitate to reach out to me on any of my social media accounts or send me an {' '}
         <Link
